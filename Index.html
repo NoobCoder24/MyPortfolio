@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+         $('.toggle').click(function(){
+             $('ul').toggleClass('active');
+         })
+    })
+    </script>
+    
+</head>
+<body>
+            <div class="NavbarClass">
+                <nav id="navbar">                  
+                        <img src="Images/Black with Thunder Icon Basketball Logo.png" alt="logo" class="imgLogo">              
+                    <a href="" class="toggle"><i class="fa fa-bars"></i></a>
+                    <ul class="active">
+                       <li><a href="#welcome-section">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Projects">Work</a></li>
+                        <li><a href="#contact">Contact</a></li> 
+                    </ul>
+                </nav> 
+            </div> 
+            <section id="welcome-section">
+                <div class="headerClass container">
+                    <h1>Hello,I'm <span class="highlight">Atul Pal</span>.</h1><br>
+                </div>
+            </section>
+       <!---About -->     
+            <section id="about">
+            <div class="about-section container">
+                <div class="col-left">
+                    <div class="about-img">
+                        <img src="Images/Aboutme.jpg" alt="img">
+                    </div>
+                </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>me</span></h1>
+                <h2>Web Developer</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fugiat sed, illo, incidunt pariatur nobis nam culpa animi itaque, 
+                    quaerat modi velit consequuntur odit quisquam maiores commodi doloremque? 
+                    Corrupti, exercitationem aspernatur?Dolorum adipisci, ut consequatur praesentium 
+                    totam explicabo facere earum cum quas maxime aut, iure est repellendus, repudiandae amet 
+                    commodi maiores? Dolores magnam illo sed sint consequuntur reiciendis necessitatibus sequi nisi!</p>
+                    <a href="#"class="cta">Download Resume</a>
+            </div>
+            </div>
+            </section>
+
+           <!---Projects Section--> 
+            <section id="Projects">
+                <div class="project container">
+                    <div class="project-top">
+                        <h1 class="project-title">Projects</h1>
+                        <p>These are some my works..</p>
+                    </div>
+                    <div id="Gallery" class="project-bottom">
+                        <div class="project-item">
+                            <iframe height="230" style="width: 60%;" scrolling="no" title="Product Landing Page" src="https://codepen.io/noobcoder24/embed/preview/BaKNbrz?height=329&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+                            <a href="https://codepen.io/noobcoder24/full/BaKNbrz" target="_blank">Product Landing Page</a>
+                        </div>
+                        <div class="project-item">
+                            <iframe height="230" style="width: 60%;" scrolling="no" title="Tribute Page" src="https://codepen.io/noobcoder24/embed/preview/QWNwapJ?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+                            <a href="https://codepen.io/noobcoder24/full/QWNwapJ" target="_blank">Tribute Page</a>
+                        </div>
+                        <div class="project-item">
+                            <iframe height="230" style="width: 60%;" scrolling="no" title="Survey Form" src="https://codepen.io/noobcoder24/embed/preview/VwaLZgq?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+                            <a href="https://codepen.io/noobcoder24/full/VwaLZgq" target="_blank">Survey Form</a>
+                        </div>
+                        <div class="project-item">
+                            <iframe height="230" style="width: 60%;" scrolling="no" title="Technical Documentation Page" src="https://codepen.io/noobcoder24/embed/preview/gOraQEa?height=265&theme-id=light&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe>
+                            <a href="https://codepen.io/noobcoder24/full/gOraQEa" target="_blank">Technical Documentation Page</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact-section">
+                <div class="contact-section-header">
+                    <h2>Let's work together...</h2>
+                    <p>How do you take your coffee?</p>
+                </div>
+                <div class="contact-links">
+                    <a href="" id="profile-link" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="" id="profile-link" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="mailto:example@example.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+                    <a href="tel:555-555-5555" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+                </div>
+            </section>
+            <footer>
+                <p>
+                    <i class="fa fa-copyright" aria-hidden="true"></i> Copyright by noobcoder24 | 2020 
+                </p>
+            </footer>
+</body>
+</html>
